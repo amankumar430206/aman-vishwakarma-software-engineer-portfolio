@@ -1,0 +1,252 @@
+/* ---------- Animated Gradient Hero ---------- */
+.VPHero {
+  position: relative;
+  overflow: hidden;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* Gradient layer */
+.VPHero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background: linear-gradient(120deg, #0f172a, #1e1b4b, #312e81, #0f172a);
+
+  background-size: 300% 300%;
+  animation: heroGradient 14s ease infinite;
+}
+
+/* Soft glow overlay */
+.VPHero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background: radial-gradient(circle at 30% 20%, rgba(99, 102, 241, 0.25), transparent 60%);
+}
+
+@keyframes heroGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Improve text contrast */
+.VPHero .name,
+.VPHero .text,
+.VPHero .tagline {
+  color: #e5e7eb;
+}
+
+.VPHero .tagline {
+  opacity: 0.9;
+}
+
+/* CTA buttons spacing */
+.VPHero .actions {
+  margin-top: 2rem;
+}
+
+/* ---------- Hero Image Styling ---------- */
+.VPHero .image {
+  border-radius: 50%;
+  background: radial-gradient(circle at top, rgba(99, 102, 241, 0.35), transparent 70%);
+  /* padding: 10px; */
+}
+
+.VPHero .image img {
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 2px rgba(55, 58, 251, 0.4),
+    0 20px 40px rgba(0, 0, 0, 0.45);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.VPHero .image {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* ---------- Hero Divider Line ---------- */
+.hero-divider {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  margin: 3rem 0 2rem;
+  overflow: hidden;
+}
+
+.hero-divider::before {
+  content: "";
+  position: absolute;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.8), transparent);
+  animation: dividerGlow 4s ease-in-out infinite;
+}
+
+@keyframes dividerGlow {
+  0% {
+    left: -40%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* ---------- Content Depth ---------- */
+.VPContent {
+  position: relative;
+  z-index: 1;
+}
+
+.VPContent::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.6), transparent);
+  pointer-events: none;
+}
+
+/* ---------- Time-based Greeting ---------- */
+.hero-greeting {
+  text-align: center;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(203, 213, 225, 0.7);
+  margin-bottom: 1rem;
+  animation: greetingFade 0.8s ease-out;
+}
+
+@keyframes greetingFade {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Availability Badge ---------- */
+.availability-badge {
+  display: inline-block;
+  margin: 1rem auto 1.5rem;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a5b4fc;
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  border-radius: 999px;
+}
+
+/* ---------- Metrics Strip ---------- */
+.metrics-strip {
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  /* text-align: center; */
+  margin: 3rem 0 2rem;
+}
+
+.metrics-strip strong {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e5e7eb;
+}
+
+.metrics-strip span {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(203, 213, 225, 0.6);
+}
+
+/* ---------- Skill Loop ---------- */
+.skill-loop {
+  text-align: center;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  color: rgba(203, 213, 225, 0.75);
+  margin-top: 0.8rem;
+  animation: skillFade 6s ease-in-out infinite;
+}
+
+@keyframes skillFade {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+/* ---------- Live Status ---------- */
+.live-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: rgba(203, 213, 225, 0.75);
+  margin-bottom: 1.2rem;
+}
+
+.live-status strong {
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+/* Pulsing dot */
+.live-status .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 rgba(34, 197, 94, 0.6);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 6px rgba(34, 197, 94, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
