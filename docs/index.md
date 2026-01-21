@@ -116,6 +116,10 @@ software that scales reliably.
 
 ### 📬 Let’s Connect
 
+<p class="availability-badge">
+  🟢 Open to Senior Frontend / Full-Stack Roles
+</p>
+
 📧 **Email:** aman.vishwakarma.dev@gmail.com  
 💻 **GitHub:** https://github.com/amankumar430206  
 🔗 **LinkedIn:** https://www.linkedin.com/in/aman-vishwakarma/
