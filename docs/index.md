@@ -55,19 +55,11 @@ hero:
 #       production-grade platforms end-to-end.
 ---
 
-<!-- <p class="skill-loop">
-  React · TypeScript · AWS · Microservices · Fintech
-</p> -->
-
-<!-- <p class="availability-badge">
-  🟢 Open to Senior Frontend / Full-Stack Roles
-</p> -->
-<!--
 <p class="live-status">
   <span class="dot"></span>
   <strong>Currently building:</strong>
   <span id="live-status-text"></span>
-</p> -->
+</p>
 
 <p class="hero-greeting" id="hero-greeting"></p>
 <div class="metrics-strip">

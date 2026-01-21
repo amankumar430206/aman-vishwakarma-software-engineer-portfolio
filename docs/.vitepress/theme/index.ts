@@ -1,13 +1,28 @@
 import DefaultTheme from "vitepress/theme";
+import type { EnhanceAppContext } from "vitepress";
+import { onMounted } from "vue";
 import "./custom.css";
 
 export default {
   ...DefaultTheme,
-  enhanceApp() {
-    // Live status text rotation
-    if (typeof window !== "undefined") {
-      const statusEl = document.getElementById("live-status-text");
 
+  enhanceApp(ctx: EnhanceAppContext) {
+    const { router } = ctx;
+
+    if (typeof window === "undefined") return;
+
+    let statusInterval: number | undefined;
+
+    const setupHeroEnhancements = () => {
+      // ---- Time-based greeting ----
+      const greetingEl = document.getElementById("hero-greeting");
+      if (greetingEl) {
+        const hour = new Date().getHours();
+        greetingEl.textContent = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
+      }
+
+      // ---- Live status (safe interval) ----
+      const statusEl = document.getElementById("live-status-text");
       if (statusEl) {
         const statuses = [
           "Cross-border fintech & neobanking platforms",
@@ -18,59 +33,32 @@ export default {
         let index = 0;
         statusEl.textContent = statuses[index];
 
-        setInterval(() => {
+        if (statusInterval) clearInterval(statusInterval);
+
+        statusInterval = window.setInterval(() => {
           index = (index + 1) % statuses.length;
           statusEl.textContent = statuses[index];
         }, 5000);
       }
-    }
 
-    if (typeof window !== "undefined") {
-      // greeting message based on time of day
-      const greetingEl = document.getElementById("hero-greeting");
-
-      if (greetingEl) {
-        const hour = new Date().getHours();
-        let greeting = "Hello";
-
-        if (hour >= 5 && hour < 12) greeting = "Good morning";
-        else if (hour >= 12 && hour < 17) greeting = "Good afternoon";
-        else greeting = "Good evening";
-
-        greetingEl.textContent = greeting;
-      }
-
-      // hero image parallax effect
-      const heroImage = document.querySelector(".VPHero .image") as HTMLElement;
-
+      // ---- Subtle hero image parallax ----
+      const heroImage = document.querySelector(".VPHero .image") as HTMLElement | null;
       if (heroImage) {
         window.addEventListener("scroll", () => {
           const offset = Math.min(window.scrollY * 0.02, 4);
           heroImage.style.transform = `translateY(${offset}px)`;
         });
       }
+    };
 
-      // download resume click tracking
-      window.addEventListener("click", (e) => {
-        const target = e.target as HTMLElement;
-        const link = target.closest("a");
+    // Run once after initial mount
+    onMounted(() => {
+      setupHeroEnhancements();
+    });
 
-        if (link && link.getAttribute("href") === "/resume.pdf") {
-          console.log("[Analytics] Resume downloaded");
-
-          localStorage.setItem("resume_downloads", String(Number(localStorage.getItem("resume_downloads") || 0) + 1));
-
-          // Hook for future analytics
-          window.dispatchEvent(
-            new CustomEvent("resume_download", {
-              detail: {
-                timestamp: Date.now(),
-                source: "hero",
-              },
-            }),
-          );
-        }
-      });
-    }
+    // Run on every client-side route change (VitePress way)
+    router.onAfterRouteChange = () => {
+      setTimeout(setupHeroEnhancements, 0);
+    };
   },
 };
