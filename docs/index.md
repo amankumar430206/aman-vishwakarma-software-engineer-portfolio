@@ -96,29 +96,129 @@ software that scales reliably.
 
 <div class="hero-divider"></div>
 
-### 🧩 Tech Snapshot
-
-- **Frontend:** React, Next.js, TypeScript, Vue, Micro-frontends
-- **Backend:** Node.js, REST APIs, Microservices
-- **Cloud:** AWS (EC2, S3, CloudFront, ELB, ASG, Lambda, ECS)
-- **DevOps:** Docker, Kubernetes, CI/CD (CodeBuild, CodePipeline)
-- **Domains:** Fintech, Neobanking, Payments, Enterprise Systems
-
-<div class="hero-divider"></div>
-
-### 💼 Currently
+### 🔥 Currently
 
 - Sr. Software Engineer @ **Stackintel**
 - Building **cross-border finance & neobanking platforms**
 - Open to **Senior Frontend / Full-Stack / Fintech roles**
 
-<div class="hero-divider"></div>
+## Experience
 
-### 📬 Let’s Connect
+##### **[ show all →](/experience)**
+
+<div class="timeline">
+<div class="timeline-item">
+  <div class="timeline-dot active"></div>
+  <div class="timeline-content">
+    <h3>📍 Senior Software Engineer — Stackintel</h3>
+    <span class="timeline-time">Nov 2024 – Present · Remote</span>
+    <p>
+      Leading end-to-end fintech systems including card processing,
+      neobanking, and cross-border payments handling ~1M+ transactions/day.
+    </p>
+    <ul>
+      <li>Owned architecture, frontend performance, and AWS infrastructure</li>
+      <li>Reduced deployment time by ~80% via CI/CD automation</li>
+      <li>Led a 3-engineer team on production systems</li>
+    </ul>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <h3>Software Engineer — Velotio Technologies</h3>
+    <span class="timeline-time">Jul 2024 – Nov 2024 · Remote</span>
+    <p>
+      Built internal enterprise tools with complex KYC workflows
+      and AWS-based deployments.
+    </p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <h3>Software Engineer — Trukker Technologies (Moxey)</h3>
+    <span class="timeline-time">Nov 2022 – Jun 2024 · Bangalore</span>
+    <p>
+      Migrated legacy JSP systems to React, achieving ~90% performance
+      improvement and multi-region scalability.
+    </p>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <h3>R&D Intern — Siemens India</h3>
+    <span class="timeline-time">Jun 2021 – Aug 2021 · Bangalore</span>
+    <p>
+      Early engineering foundation in R&D-driven, production-grade systems.
+    </p>
+  </div>
+</div>
+
+</div>
+
+## ⭐ Featured Projects
+
+<div class="project-grid">
+
+<div class="project-card">
+  <h3>Finfan - Payments  Platform | VISA</h3>
+  <p>
+    Secure fintech platform for global payments, KYC/AML compliance,
+    and T+1 settlements built using MERN + AWS.
+  </p>
+  <ul>
+    <li>1k TPS · 99.9% uptime</li>
+    <li>Node.js microservices + AWS CI/CD</li>
+  </ul>
+  <a href="/projects">View details →</a>
+</div>
+
+<div class="project-card">
+  <h3>Amplytic AI Assistant</h3>
+  <p>
+    Real-time AI chatbot UI for renewable energy analytics with
+    SSE streaming and sub-200ms responses.
+  </p>
+  <ul>
+    <li>50% engagement increase</li>
+    <li>React, Redux, TanStack Query</li>
+  </ul>
+  <a href="/projects">View details →</a>
+</div>
+
+<div class="project-card">
+  <h3> Maverik AI — Healthcare Chatbot</h3>
+  <p>
+    Conversational AI frontend for patient record analysis using
+    Next.js and secure REST APIs.
+  </p>
+  <ul>
+    <li>HIPAA-aware UI</li>
+    <li>Sub-200ms rendering</li>
+  </ul>
+  <a href="/projects">View details →</a>
+</div>
+
+</div>
+
+**[View all projects →](/projects)**
+
+## 🔥 Open to Opportunities
 
 <p class="availability-badge">
-  🟢 Open to Senior Frontend / Full-Stack Roles
+  🟢 Open to Senior Frontend / Full-Stack / Fintech Roles
 </p>
+
+I’m interested in **high-impact engineering roles** involving:
+
+- Scalable frontend systems
+- Fintech / AI / cloud-native products
+- Ownership and technical leadership
 
 📧 **Email:** aman.vishwakarma.dev@gmail.com  
 💻 **GitHub:** https://github.com/amankumar430206  
