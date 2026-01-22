@@ -3,9 +3,16 @@
 This page highlights how I **design, scale, and reason about systems** —
 beyond just writing code.
 
+## 🧠 How I Think as an Engineer
+
+- Prefer **boring, proven tech** at scale
+- Optimize for **change, not perfection**
+- Measure impact using **metrics, not opinions**
+- Ship fast → observe → iterate
+
 ---
 
-## 🏗️ Fintech Platform Architecture (Neobanking & Payments)
+### 🏗️ Fintech Platform Architecture (Neobanking & Payments)
 
 ### High-level Overview
 
@@ -84,15 +91,6 @@ The platform is designed as a **cloud-native, modular system** supporting:
 - **Developer velocity**
 - **Operational simplicity**
 - **Clear ownership & observability**
-
----
-
-## 🧠 How I Think as an Engineer
-
-- Prefer **boring, proven tech** at scale
-- Optimize for **change, not perfection**
-- Measure impact using **metrics, not opinions**
-- Ship fast → observe → iterate
 
 ---
 
