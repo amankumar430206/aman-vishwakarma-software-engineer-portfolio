@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  appearance: "force-dark", // to have dark mode by default
   title: "Aman Vishwakarma",
   description: "Senior Software Engineer | Fintech | Full-Stack | Cloud",
   head: [
@@ -15,10 +16,10 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Experience", link: "/experience" },
       { text: "Projects", link: "/projects" },
-      { text: "Architecture", link: "/architecture" },
+      // { text: "Architecture", link: "/architecture" },
       { text: "Skills", link: "/skills" },
-      { text: "Certifications", link: "/certifications" },
       { text: "Contact", link: "/contact" },
+      { text: "🏅 Certifications", link: "/certifications" },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/amankumar430206" },
