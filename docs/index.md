@@ -62,23 +62,30 @@ hero:
 </p>
 
 <p class="hero-greeting" id="hero-greeting"></p>
+
+<!-- metrics strip -->
 <div class="metrics-strip">
-  <div>
+
+  <div class="metric" data-signal="Hands-on experience building and owning production-grade applications">
     <strong>4+ yrs</strong>
-    <span>Experience</span>
+    <span>Production Experience</span>
   </div>
-  <div>
-    <strong>~1M/day</strong>
-    <span>Transactions</span>
+
+  <div class="metric" data-signal="Worked on systems and features operating at high transaction volumes">
+    <strong>High-Scale</strong>
+    <span>Fintech Systems</span>
   </div>
-  <div>
+
+  <div class="metric" data-signal="Improved deployment workflows by designing and implementing CI/CD pipelines">
     <strong>80%</strong>
-    <span>Faster Deploys</span>
+    <span>Faster Deployments</span>
   </div>
-  <div>
-    <strong>Multi-Region</strong>
-    <span>Scale</span>
+
+  <div class="metric" data-signal="Owned and delivered multiple end-to-end projects from design to production">
+    <strong>End-to-End</strong>
+    <span>System Ownership</span>
   </div>
+
 </div>
 
 ### 👋 About Me

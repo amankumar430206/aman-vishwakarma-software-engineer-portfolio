@@ -200,6 +200,71 @@ html.dark .VPContent {
 }
 
 /* ---------- Metrics Strip ---------- */
+
+.metric {
+  position: relative;
+  cursor: default;
+}
+
+.metric::after {
+  content: attr(data-signal);
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  width: 220px;
+
+  background: rgba(15, 23, 42, 0.95);
+  color: #e5e7eb;
+  font-size: 0.75rem;
+  line-height: 1.4;
+
+  padding: 0.6rem 0.7rem;
+  border-radius: 8px;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  z-index: 20;
+}
+
+.metric::before {
+  content: "Hiring signal";
+  position: absolute;
+  top: -0.8rem;
+  right: 0;
+
+  font-size: 0.6rem;
+  color: var(--vp-c-text-3);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.metric:hover::before {
+  opacity: 1;
+}
+
+.metric::before {
+  content: "Hiring signal";
+  position: absolute;
+  top: -0.8rem;
+  right: 0;
+
+  font-size: 0.6rem;
+  color: var(--vp-c-text-3);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.metric:hover::before {
+  opacity: 1;
+}
+
+.metric:hover::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
 .metrics-strip {
   padding: 2rem 1rem;
   display: grid;
