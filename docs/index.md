@@ -5,8 +5,8 @@ hero:
   name: Aman Vishwakarma
   text: Software Engineer
   tagline: >
-    Building high-scale fintech & cloud systems with React, TypeScript,
-    Microservices, and AWS.
+    Building high-scale fintech web & cloud systems with React, Microfrontends,
+    Microservices and AWS.
   image:
     src: /hero.jpeg
     alt: Aman Vishwakarma
