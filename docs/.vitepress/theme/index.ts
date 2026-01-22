@@ -25,9 +25,9 @@ export default {
       const statusEl = document.getElementById("live-status-text");
       if (statusEl) {
         const statuses = [
-          "Cross-border fintech & neobanking platforms",
-          "Scalable React + TypeScript frontends",
-          "AWS-native CI/CD & cloud architecture",
+          "Owning complex features across frontend and backend layers",
+          "Architecting scalable React and TypeScript applications",
+          "Optimizing build, deployment, and release pipelines",
         ];
 
         let index = 0;
