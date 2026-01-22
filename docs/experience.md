@@ -6,41 +6,41 @@
 
 ### 🔥Engineering Strengths (At a Glance)
 
-- **4+ years** of professional engineering experience
-- **1M+ daily transactions** handled in production systems
-- **80% faster deployments** through CI/CD automation
-- **3‑member team leadership** on critical fintech products
-- **Multi‑region & cloud‑scale systems** across AWS and Azure
+- Proven ability to take complex projects **from concept to production** with reliability, performance, and business alignment.
+- Consistently delivers **high-impact features and systems** supporting millions of users with measurable improvements in scalability and UX.
+- Designs software with **robustness and resilience**, anticipating edge cases, failures, and growth challenges.
+- Elevates team performance by **mentoring engineers, enforcing quality standards, and fostering collaboration**.
+- Translates product requirements into **scalable, maintainable systems** that drive business goals and enhance customer outcomes.
 
 ## 📍 Stackintel — **Senior Software Engineer**
 
-**Remote · Bangalore**
+**Remote · Bangalore** |
 **Nov 2024 – Present**
 
 ### What I’m Trusted With
 
-- **End‑to‑end ownership** of revenue‑critical fintech platforms—from architecture to production reliability.
-- **Technical leadership** for a small, high‑impact team (3 engineers), setting standards for code quality, security, and delivery.
-- **System design decisions** impacting scalability, compliance, and time‑to‑market.
+- **End-to-end ownership** of revenue-critical fintech frontend systems, from architecture and implementation to production stability and performance.
+- **Technical leadership** for a high-impact team of 3 engineers, enforcing **frontend architecture standards, code quality, performance, and security**.
+- **Frontend system design decisions** influencing scalability, reliability, compliance workflows, and user experience in financial products.
 
 ### Impact & Measurable Outcomes
 
-- **Built a multi‑module Card Processor, Expense Management, and Cross‑Border Payments system from scratch**, supporting real‑world financial workflows.
-- **Bootstrapped a Neobanking solution** enabling secure card issuing, remittance, collections, and multi‑currency management via financial APIs.
-- **Handled ~1M+ transactions/day** with stable performance and consistent page load times.
-- **Reduced deployment time by ~80%** by architecting CI/CD pipelines using AWS S3, CodeBuild, and CodePipeline.
-- **Improved system reliability and latency** using ELB, Auto Scaling Groups, and CloudFront.
+- **Owned and built a multi-module fintech frontend** (Card Processing, Expense Management, Cross-Border Payments) using **React 18 + TypeScript**, supporting real-world financial workflows and edge cases.
+- **Implemented Redux Toolkit–based state architecture** with normalized entities and idempotent async flows to safely handle **payment retries, race conditions, and eventual consistency**.
+- **Developed complex fintech forms** using **React Hook Form + Zod**, enabling schema-driven validation for **KYC, card issuance, transaction limits, and multi-currency inputs** with minimal re-renders.
+- **Handled ~1M+ transactions/day** with consistent performance by optimizing rendering, caching, and frontend error-handling strategies.
+- **Improved frontend performance by ~60% (TTI)** using **code splitting, lazy loading, prefetching, and CDN-aware caching**, achieving **Core Web Vitals targets (LCP <1.5s)**.
+- **Reduced deployment time by ~80%** by architecting frontend CI/CD pipelines using **AWS S3, CloudFront, CodeBuild, and CodePipeline**, with cache invalidation and rollback strategies.
 
 ### Technical Depth
 
-- **Frontend:** React, Next.js, TypeScript, performance optimization, caching strategies
-- **Backend:** Node.js, Microservices architecture
+- **Frontend:** React 18, TypeScript, Redux Toolkit, React Hook Form, Zod, Next.js, performance optimization, Core Web Vitals
+- **Architecture:** Advanced hooks, normalized state, optimistic updates, transactional UI isolation
 - **Cloud & DevOps:** AWS (S3, CloudFront, ELB, ASG, CodeBuild, CodePipeline)
-- **Product:** FinFan – Cross‑Border Finance Platform
 
 ## Velotio Technologies — **Software Engineer**
 
-**Remote · Pune**
+**Remote · Pune** |
 **Jul 2024 – Nov 2024 (5 months)**
 
 ### Why I Was Hired
@@ -61,7 +61,7 @@
 
 ## Trukker Technologies — **Software Engineer**
 
-**Bangalore**
+**Bangalore** |
 **Nov 2022 – Jun 2024 (1.7 years)**
 
 ### Business Problems Solved
@@ -86,7 +86,7 @@
 
 ## Siemens India Pvt. Ltd. — **Research & Development Intern**
 
-**Bangalore**
+**Bangalore** |
 **Jun 2021 – Aug 2021 (3 months)**
 
 ### Early Engineering Foundation

@@ -17,7 +17,7 @@ export default defineConfig({
       { text: "Experience", link: "/experience" },
       { text: "Projects", link: "/projects" },
       // { text: "Architecture", link: "/architecture" },
-      { text: "Skills", link: "/skills" },
+      // { text: "Skills", link: "/skills" },
       { text: "Contact", link: "/contact" },
       { text: "🏅 Certifications", link: "/certifications" },
     ],

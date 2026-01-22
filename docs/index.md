@@ -5,8 +5,7 @@ hero:
   name: Aman Vishwakarma
   text: Software Engineer
   tagline: >
-    Building high-scale fintech web & cloud systems with React, Microfrontends,
-    Microservices and AWS.
+    Driving scalable, high-impact full-stack solutions while elevating teams and business outcomes.
   image:
     src: /hero.jpeg
     alt: Aman Vishwakarma
@@ -71,53 +70,39 @@ hero:
     <span>Production Experience</span>
   </div>
 
-  <div class="metric" data-signal="Worked on systems and features operating at high transaction volumes">
-    <strong>High-Scale</strong>
-    <span>Fintech Systems</span>
+ <div class="metric" data-signal="Mentored engineers and set engineering standards to improve team productivity, code quality, and maintainability">
+    <strong>Team</strong>
+    <span>Multiplier</span>
   </div>
 
-  <div class="metric" data-signal="Improved deployment workflows by designing and implementing CI/CD pipelines">
-    <strong>80%</strong>
-    <span>Faster Deployments</span>
+  <div class="metric" data-signal="Optimized frontend performance, caching, and user experience to sustain high-scale traffic with sub-second load times">
+    <strong>60%</strong>
+    <span>Faster UI</span>
   </div>
 
-  <div class="metric" data-signal="Owned and delivered multiple end-to-end projects from design to production">
-    <strong>End-to-End</strong>
-    <span>System Ownership</span>
+ <div class="metric" data-signal="Mentored engineers and set engineering standards to improve team productivity, code quality, and maintainability">
+    <strong>Team</strong>
+    <span>Multiplier</span>
   </div>
 
 </div>
 
 ### 👋 About Me
 
-I’m a **Software Engineer** building
-**fintech and enterprise-scale systems**.
+I’m a **Software Engineer**, Full-stack wizard building scalable, high-stakes apps that actually work under pressure. I take end-to-end ownership, turning complex fintech systems into smooth, bulletproof user experiences.
 
-I specialize in **frontend-heavy full-stack development**, owning products
-from architecture and UI performance to cloud infrastructure and CI/CD.
-Most of my work lives in **payments, neobanking, cross-border finance, and
-high-traffic platforms**.
+I mentor, lead, and set standards, shipping code that’s clean, reliable, and impactful. Obsessed with performance, resilience, and results—I don’t just build software, I future-proof it.
 
 I enjoy solving hard problems, simplifying complex systems, and building
 software that scales reliably.
 
-<div class="hero-divider"></div>
-
-### 🔥 Currently
-
-- Sr. Software Engineer @ **Stackintel**
-- Building **cross-border finance & neobanking platforms**
-- Open to **Senior Frontend / Full-Stack / Fintech roles**
-
 ## Experience
-
-##### **[ show all →](/experience)**
 
 <div class="timeline">
 <div class="timeline-item">
   <div class="timeline-dot active"></div>
   <div class="timeline-content">
-    <h3>📍 Senior Software Engineer — Stackintel</h3>
+    <h3>📍 Senior Software Engineer — Stackintel Pvt. Ltd (Fintech Startup)</h3>
     <span class="timeline-time">Nov 2024 – Present · Remote</span>
     <p>
       Leading end-to-end fintech systems including card processing,
@@ -167,6 +152,16 @@ software that scales reliably.
 </div>
 
 </div>
+
+##### **[ show all →](/experience)**
+
+### 🔥Engineering Strengths (At a Glance)
+
+- Proven ability to take complex projects **from concept to production** with reliability, performance, and business alignment.
+- Consistently delivers **high-impact features and systems** supporting millions of users with measurable improvements in scalability and UX.
+- Designs software with **robustness and resilience**, anticipating edge cases, failures, and growth challenges.
+- Elevates team performance by **mentoring engineers, enforcing quality standards, and fostering collaboration**.
+- Translates product requirements into **scalable, maintainable systems** that drive business goals and enhance customer outcomes.
 
 ## ⭐ Featured Projects
 
